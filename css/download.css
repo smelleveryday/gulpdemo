@@ -1,0 +1,71 @@
+.header{
+  height: 4.8125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left{
+  margin-left: 2.25rem;
+}
+.header-right{
+  display: flex;
+  margin-right: 3.125rem
+}
+.header-right p{
+  margin-left: 2.5rem;
+  color: #333;
+}
+.info{
+  height: 38.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infodetail{
+  height: 28.125rem;
+  width: 37.5rem;
+}
+.info-title{
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+.info-img{
+  display: flex;
+  margin-top: 2.375rem;
+}
+.img-right{
+  width: 17.8125rem;
+  margin-left: 7.1875rem;
+}
+.verson{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 2.8125rem 0 1.875rem;
+}
+.ios{
+  margin: 5px 54px 0 0;
+}
+.download-code{
+  display: flex;
+  text-align: center;
+}
+.img-button{
+  width: 6.875rem;
+  line-height: 1.875rem;
+  border: 1px solid #ccc;
+  font-size: .75rem;
+  color: #333;
+  text-align: center;
+}
+.wenzi{
+  margin: 1rem 0;
+}
+.code-left{
+  margin-right: 3.125rem;
+}
+.code-diss{
+  font-size: .75rem;
+  color: #333;
+}

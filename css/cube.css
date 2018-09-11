@@ -1,0 +1,166 @@
+.headerbg{
+	font-size: 1rem;
+	height: 32.5rem;
+	color: #fff;
+  background: url(../img/banner.png);
+  background-size: 100% 100%;
+}
+.title{
+	text-align: center;
+  font-size: 2rem;
+  margin-top: 7.5rem;
+	color: #fff;
+}
+.header-button{
+	display: flex;
+	justify-content: center;
+	margin-top: 3.75rem;
+}
+.button{
+	width: 9.375rem;
+	line-height: 2.8125rem;
+	border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.button-left{
+  background: #4e8cef;
+  color: #fff;
+}
+.button-right{
+	border: 1px solid #fff;
+  margin-left: 3.125rem;
+  cursor: pointer;
+}
+.work{
+	display: flex;
+  height: 24.6875rem;
+  align-items: center;
+}
+.work-left{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.work-info{
+	width: 25rem;
+	font-size: 1rem;
+}
+.work-info p{
+	line-height: 1.875rem;
+}
+.work-yuan,.work-ling{
+	margin-top: 1.875rem;
+}
+.work-title{
+	font-size: 1.25rem;
+}
+.work-img{
+	width: 50%;
+	height: 24.6875rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.people{
+  background: #f1f4f9;
+  display: flex;
+  height: 23.75rem;
+  align-items: center;
+}
+.people-right{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.people-img{
+  width: 50%;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.people-title{
+  font-size: 1.375rem;
+}
+.people-info{
+  width: 25rem;
+  font-size: 1rem;
+}
+.people-info p{
+  line-height: 1.875rem;
+}
+.people-yuan{
+  margin-top: 1.875rem;
+}
+.onesite{
+  height: 46.875rem;
+}
+.onesite-title{
+  font-size: 1.5rem;
+  line-height: 10.9375rem;
+  text-align: center;
+}
+.onesite-all{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.onesite-bottom{
+  width: 42.5rem;
+  border-bottom: 1px dashed #bdbdbd;
+}
+.onesite-bottom p{
+  margin-top: .625rem;
+}
+.onesite-one{
+  border-right: 1px dashed #bdbdbd;
+}
+.onesite-bottom a{
+  width: 10.3125rem;
+  height: 8.125rem;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#onesite-last{
+  border: 0;
+}
+.userserver{
+  height: 24.375rem;
+  background: #f1f4f9;
+}
+.userserver-title{
+  line-height: 9.375rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.userserver-img{
+  display: flex;
+  justify-content: center;
+}
+.userimg-two{
+  margin-top: 1.625rem;
+}
+.user-img{
+  margin-right: 4.375rem;
+}
+.experience{
+  height: 16.5625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/bg2.png)
+}
+.experience-title{
+  font-size: 1.5rem;
+}
+.experience-button{
+  width: 9.375rem;
+  line-height: 2.875rem;
+  background: #4e8cef;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  margin: 3.125rem 0 0 3.25rem;
+  cursor: pointer;
+}

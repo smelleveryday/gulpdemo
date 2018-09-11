@@ -1,0 +1,74 @@
+.header{
+  height: 10rem;
+  background: url(../img/banner-tryout.jpg)no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forms{
+  text-align: center;
+}
+.form-header{
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+  color: #333;
+}
+.form-input{
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.form-input > input,select{
+   width: 20rem;
+   height: 2.5rem;
+   border-radius: 5px;
+   outline: none;
+   text-indent: 10px;
+   padding: 0;
+   border: 1px solid #999;
+}
+.form-input > span{
+  color: red;
+  margin-right: 1rem;
+}
+.getcode{
+  background: #4093e3;
+  padding: 10px 10px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: 12rem;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.selects{
+  color: #666;
+}
+.center-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+.appendbtn{
+  width: 7.5rem;
+  height: 2.5rem;
+  background: #4093e3;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contact{
+  position: absolute;
+  left: 50%;
+  margin-left: -7.8rem;
+  font-size: .8rem;
+  color: red;
+  display: none;
+}

@@ -1,0 +1,150 @@
+.header{
+  height: 4.6875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left{
+  display: flex;
+  align-items: center;
+  margin-left: 2.25rem;
+}
+.header-right{
+  display: flex;
+  margin-right: 3.125rem;
+}
+.header-right p{
+  margin-left: 2.5rem;
+  color: #333;
+}
+.helpcenter{
+  border-left: 1px solid #d2d2d2;
+  margin-left: 1.125rem;
+  padding-left: 1.125rem;
+  color: #999;
+}
+.bander{
+  height: 12.5rem;
+  background: url(../img/helpbg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search{
+  display: flex;
+}
+.search-img{
+  width: 3.125rem;
+  height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.search-input{
+  width: 42.5rem;
+  border: 0;
+  outline: none;
+}
+.search-button{
+  width: 5.9375rem;
+  height: 3.125rem;
+  background: #4e8def;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info{
+  height: 35.375rem;
+}
+.info-top{
+  height: 17.6875rem;
+  display: flex;
+  justify-content: center;
+}
+.info-buttom{
+  height: 17.6875rem;
+  display: flex;
+  justify-content: center;
+}
+.file{
+  width: 20.625rem;
+}
+.info-top .file p,.info-top .learn p{
+  font-size: 1.125rem;
+  color: #333;
+  margin: 3.375rem 0 1.375rem;
+}
+.info-bottom .file p,.info-bottom .learn p{
+  font-size: 1.125rem;
+  color: #333;
+}
+.file li,.learn li{
+  display: flex;
+  align-items: center;
+  font-size: .875rem;
+  color: #4e8def;
+  line-height: 2.375rem;
+}
+.file-detail a{
+  color: #4e8def;
+}
+.file-detail span{
+  width: 5px;
+  height: 5px;
+  display: block;
+  border-radius: 50%;
+  background: #c2c2c2;
+  margin-right: .625rem;
+}
+.learn{
+  width: 20.625rem;
+}
+.discuss{
+  width: 16.25rem;
+  height: 13.125rem;
+  border: 1px solid #ececec;
+  margin-top: 2.5rem;
+  padding: 0 1.25rem;
+}
+.discuss-1{
+  width: 16.25rem;
+  padding: 0 1.25rem;
+}
+.discuss-info{
+  width: 16.25rem;
+  height: 3.125rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e3e3e3;
+}
+.discuss-info p:nth-of-type(1){
+  font-size: 1.125rem;
+}
+.discuss-info p:nth-of-type(2){
+  font-size: .875rem;
+  color: #4e8def;
+}
+.discuss-info-title{
+  color: #4e8def;
+  font-size: .875rem;
+  line-height: 2.25rem;
+}
+.discuss-info-time{
+  font-size: .875rem;
+  line-height: 36px;
+}
+.discuss-info-time span{
+  margin: 0 .75rem 0 1.375rem;
+}
+.check{
+  font-size: .875rem;
+  color: #999;
+  margin: .75rem 0 0 1.25rem;
+}
+#help{
+  background: #eeeeee;
+  color: #333;
+}
